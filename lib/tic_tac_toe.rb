@@ -132,7 +132,7 @@ def winner
         turn
       when won? != false
         puts "Congratulations #{winner}!"
-      elsif draw? == true
+      when draw? == true
         puts "Cat's Game!"
       
     end
