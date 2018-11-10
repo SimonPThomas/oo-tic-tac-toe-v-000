@@ -128,7 +128,7 @@ def winner
 
 
     def play
-      until !over? && !won? && !draw?
+      until !over? 
         turn
       # if won? != false
       #   puts "Congratulations #{winner}!"
