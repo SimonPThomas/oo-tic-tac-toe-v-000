@@ -132,7 +132,7 @@ def winner
         turn
       when won? != false
         return "Congratulations #{winner}!"
-      end
+      
       when draw? == true
         return "Cat's Game!"
       end
