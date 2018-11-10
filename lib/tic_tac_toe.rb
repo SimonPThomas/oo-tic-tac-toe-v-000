@@ -132,9 +132,10 @@ def winner
         turn
       when won? != false
         puts "Congratulations #{winner}!"
+      end
       when draw? == true
         puts "Cat's Game!"
-      
+
     end
     end
 
