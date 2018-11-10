@@ -134,7 +134,7 @@ def winner
         puts "Congratulations #{winner}!"
       elsif draw? == true
         puts "Cat's Game!"
-      end
+      
     end
     end
 
