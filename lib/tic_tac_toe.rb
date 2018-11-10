@@ -134,7 +134,7 @@ def winner
         return "Congratulations #{winner}!"
       when draw? == true
         return "Cat's Game!"
-      end
+      
     end
     end
 
