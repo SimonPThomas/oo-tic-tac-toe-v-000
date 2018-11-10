@@ -130,14 +130,14 @@ def winner
     def play
       while !over? && !won? && !draw?
         turn
-      when won? != false
+      if won? != false
         puts "Congratulations #{winner}!"
-      end
-    end
-      when draw? == true
-        puts "Cat's Game!"
-
     
+      elsif draw? == true
+        puts "Cat's Game!"
+end
+end
+
     end
 
 end #Class End
