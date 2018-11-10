@@ -134,6 +134,7 @@ def winner
         return "Congratulations #{winner}!"
       elsif draw? == true
         return "Cat's Game!"
+      end
     end
     end
 
