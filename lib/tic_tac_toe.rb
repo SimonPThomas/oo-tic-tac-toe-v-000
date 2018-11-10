@@ -133,6 +133,7 @@ def winner
       when won? != false
         puts "Congratulations #{winner}!"
       end
+    end
       when draw? == true
         puts "Cat's Game!"
 
