@@ -136,7 +136,7 @@ def winner
       when draw? == true
         puts "Cat's Game!"
 
-    end
+    
     end
 
 end #Class End
