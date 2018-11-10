@@ -119,7 +119,7 @@ def winner
     cell_3 = @board[position_3]
 
     if cell == cell_2 && cell_2 == cell_3 && position_taken?(position)
-    return "#{cell}"
+    return "#{combo[0]}"
     end
   end
   else
