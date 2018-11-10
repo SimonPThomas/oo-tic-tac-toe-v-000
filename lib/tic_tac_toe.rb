@@ -133,7 +133,7 @@ def winner
 
       if won? != false
         return "Congratulations #{winner}!"
-      if draw? == true
+      elsif draw? == true
         return "Cat's Game!"
       end
       end
