@@ -128,8 +128,9 @@ def winner
 
 
     def play
-      while !over? 
+      while !over?
         turn
+      end
       # if won? != false
       #   puts "Congratulations #{winner}!"
       # elsif draw? == true
