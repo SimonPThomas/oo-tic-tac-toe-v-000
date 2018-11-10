@@ -133,7 +133,7 @@ def winner
       if won? != false
         puts "Congratulations #{winner}!"
       elsif draw? == true
-        return "Cat's Game!"
+        puts "Cat's Game!"
       end
     end
     end
