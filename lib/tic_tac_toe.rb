@@ -131,11 +131,11 @@ def winner
       while !over?
         turn
       end
-      # if won? != false
-      #   puts "Congratulations #{winner}!"
-      # elsif draw? == true
-      #   puts "Cat's Game!"
-      # end
+      if won? != false
+        puts "Congratulations #{winner}!"
+      elsif draw? == true
+        puts "Cat's Game!"
+      
       end
     end
 
