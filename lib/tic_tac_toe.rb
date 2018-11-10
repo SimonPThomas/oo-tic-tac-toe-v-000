@@ -136,7 +136,6 @@ def winner
       elsif draw? == true
         return "Cat's Game!"
       end
-      end
     end
     end
 
